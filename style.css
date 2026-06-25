@@ -83,3 +83,50 @@ nav {
     background-color: #cc0000;
     transform: scale(1.05);
 }
+
+/* ESTILOS PADRÕES DE SEÇÃO */
+.secao-padrao {
+    padding: 80px 5%;
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+}
+
+.titulo-secao {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #1a1a1a;
+}
+
+/* BENEFÍCIOS */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+    color: #ff3b3b;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
