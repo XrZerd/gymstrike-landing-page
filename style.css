@@ -98,6 +98,14 @@ nav {
     color: #1a1a1a;
 }
 
+.bg-escuro {
+    background-color: #242424;
+}
+
+.texto-claro {
+    color: #ffffff;
+}
+
 /* BENEFÍCIOS */
 .cards-container {
     display: flex;
@@ -129,4 +137,66 @@ nav {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* PLANOS */
+.plano-card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.plano-card.destaque {
+    border: 2px solid #ff3b3b;
+    transform: scale(1.05);
+}
+
+.plano-card.destaque:hover {
+    transform: scale(1.1);
+}
+
+.tag-popular {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff3b3b;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 20px 0;
+}
+
+.preco span {
+    font-size: 16px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.lista-plano {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+.lista-plano li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+    color: #555555;
+}
+
+.plano-btn {
+    width: 100%;
+    text-align: center;
 }
