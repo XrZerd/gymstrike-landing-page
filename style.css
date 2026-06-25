@@ -200,3 +200,27 @@ nav {
     width: 100%;
     text-align: center;
 }
+
+/* DEPOIMENTOS */
+.depoimento-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+.texto-depoimento {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #444444;
+}
+
+.autor-depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-style: normal;
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+}
