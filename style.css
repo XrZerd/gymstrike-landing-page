@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Fonte básica temporária */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, .cta-button {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 /* CABEÇALHO E NAVEGAÇÃO */
@@ -22,9 +27,20 @@ nav {
 }
 
 .logo {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    font-family: 'Oswald', sans-serif;
     color: #ff3b3b;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .nav-links {
