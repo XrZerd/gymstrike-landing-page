@@ -316,3 +316,15 @@ footer {
 #fechar-alerta:hover {
     background-color: rgba(255,255,255,0.4);
 }
+
+/* ÍCONES DE BENEFÍCIOS */
+.icone-beneficio {
+    font-size: 45px;
+    color: #ff3b3b;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .icone-beneficio {
+    transform: rotate(-10deg) scale(1.1);
+}
