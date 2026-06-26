@@ -18,6 +18,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // VALIDAÇÃO E ENVIO DO FORMULÁRIO DE CONTATO
 const formContato = document.getElementById('form-contato');
+const caixaAlerta = document.getElementById('alerta-customizado');
+const textoAlerta = document.getElementById('mensagem-alerta');
+const btnFecharAlerta = document.getElementById('fechar-alerta');
 
 formContato.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -27,13 +30,35 @@ formContato.addEventListener('submit', function (e) {
     const mensagem = document.getElementById('mensagem').value.trim();
 
     if (nome === '' || email === '' || mensagem === '') {
-        alert('Por favor, preencha todos os campos antes de enviar.');
+        // Alerta de erro
+        mostrarAlerta('Por favor, preencha todos os campos.', '#ef4444');
         return;
     }
 
-    // Simulando o sucesso do envio
-    alert(`Obrigado pelo contato, ${nome}! Sua mensagem foi enviada com sucesso e nossa equipe responderá em breve.`);
+    // Alerta de sucesso
+    mostrarAlerta(`Obrigado, ${nome}! Mensagem enviada com sucesso.`, '#10b981');
 
     // Limpa os campos do formulário
     formContato.reset();
 });
+
+// Função que controla a aparição do alerta
+function mostrarAlerta(mensagem, corFundo) {
+    textoAlerta.textContent = mensagem;
+    caixaAlerta.style.backgroundColor = corFundo;
+
+    // Tira a classe 'escondido' para ele subir na tela
+    caixaAlerta.classList.remove('escondido');
+
+    // Faz o alerta sumir sozinho depois de 5 segundos
+    setTimeout(() => {
+        esconderAlerta();
+    }, 5000);
+}
+
+function esconderAlerta() {
+    caixaAlerta.classList.add('escondido');
+}
+
+// Permite o usuário fechar clicando no "Ok"
+btnFecharAlerta.addEventListener('click', esconderAlerta);

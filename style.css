@@ -46,7 +46,8 @@ nav {
 
 /* HERO SECTION */
 #hero {
-    background-color: #242424;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -276,4 +277,42 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
+}
+
+/* ALERTA PERSONALIZADO */
+#alerta-customizado {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #10b981;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s ease;
+}
+
+#alerta-customizado.escondido {
+    transform: translateY(150px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+#fechar-alerta {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#fechar-alerta:hover {
+    background-color: rgba(255,255,255,0.4);
 }
