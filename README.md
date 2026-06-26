@@ -1,8 +1,8 @@
-🔴 [Acesse o projeto online clicando aqui]((https://xrzerd.github.io/gymstrike-landing-page/))
-
 # 🏋️‍♂️ GymStrike - Landing Page para Academia
 
 > Uma landing page moderna, responsiva e focada em conversão para academias de ginástica, desenvolvida com tecnologias web fundamentais.
+
+🔗 **[Acesse o projeto online clicando aqui](https://xrzerd.github.io/gymstrike-landing-page/)**
 
 ## 💻 Sobre o Projeto
 
