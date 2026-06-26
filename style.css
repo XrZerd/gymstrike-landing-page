@@ -43,6 +43,16 @@ nav {
     color: #ff3b3b;
 }
 
+/* O botão começa escondido por padrão no computador */
+.btn-menu {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -343,4 +353,32 @@ footer {
 
 .card:hover .icone-beneficio {
     transform: rotate(-10deg) scale(1.1);
+}
+
+/* RESPONSIVIDADE (telas menores de 768px) */
+@media (max-width: 768px) {
+    /* Mostra o botão */
+    .btn-menu {
+        display: block;
+    }
+
+    /* Transforma o menu em uma tela cheia escondida na direita */
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        right: -100%;
+        background-color: #1a1a1a;
+        width: 100%;
+        height: calc(100vh - 80px);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        gap: 40px;
+        transition: right 0.4s ease;
+    }
+
+    /* Quando o JavaScript adicionar a classe 'ativo', o menu desliza para dentro da tela */
+    .nav-links.ativo {
+        right: 0;
+    }
 }

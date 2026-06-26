@@ -62,3 +62,32 @@ function esconderAlerta() {
 
 // Permite o usuário fechar clicando no "Ok"
 btnFecharAlerta.addEventListener('click', esconderAlerta);
+
+// MENU RESPONSIVO
+const btnMenu = document.getElementById('btn-menu');
+const navLinks = document.getElementById('nav-links');
+
+btnMenu.addEventListener('click', () => {
+    // Liga/desliga a classe 'ativo' no menu para ele deslizar
+    navLinks.classList.toggle('ativo');
+
+    // Troca o ícone pelo 'X' quando estiver aberto
+    const icone = btnMenu.querySelector('i');
+    if (navLinks.classList.contains('ativo')) {
+        icone.classList.remove('fa-bars');
+        icone.classList.add('fa-xmark');
+    } else {
+        icone.classList.remove('fa-xmark');
+        icone.classList.add('fa-bars');
+    }
+});
+
+// Fecha o menu automaticamente quando o usuário clicar em qualquer link dele
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('ativo');
+        const icone = btnMenu.querySelector('i');
+        icone.classList.remove('fa-xmark');
+        icone.classList.add('fa-bars');
+    });
+});
