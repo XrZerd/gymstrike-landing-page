@@ -3,7 +3,12 @@
 > Uma landing page moderna, responsiva e focada em conversão para academias de ginástica, desenvolvida com tecnologias web fundamentais.
 
 ## 💻 Sobre o Projeto
-O **Gym Strike** é um projeto de Landing Page estruturado para apresentar os serviços, diferenciais e planos de uma academia de alto impacto. O design utiliza uma paleta escura com detalhes em vermelho para passar energia e foco, aplicando conceitos avançados de Flexbox e responsividade (Mobile First).
+
+<img width="1908" height="965" alt="landingPagePC" src="https://github.com/user-attachments/assets/e2603a73-4218-416e-9ed4-0815888b0353" />
+<img width="465" height="877" alt="landingPageCelular" src="https://github.com/user-attachments/assets/b53cbd10-730d-465f-86e4-c37cfb721183" />
+
+
+O **GymStrike** é um projeto de Landing Page estruturado para apresentar os serviços, diferenciais e planos de uma academia de alto impacto. O design utiliza uma paleta escura com detalhes em vermelho para passar energia e foco, aplicando conceitos avançados de Flexbox e responsividade (Mobile First).
 
 ## ✨ Funcionalidades Concluídas
 * **Hero Section com Impacto:** Imagem de fundo com gradiente de sobreposição para destacar o título principal e o botão de Call to Action (CTA).
