@@ -9,6 +9,9 @@
 ## 💻 Sobre o Projeto
 O **GymStrike** é um projeto de Landing Page estruturado para apresentar os serviços, diferenciais e planos de uma academia de alto impacto. O design utiliza uma paleta escura com detalhes em vermelho para passar energia e foco, aplicando conceitos avançados de Flexbox e responsividade (Mobile First).
 
+<img width="1905" height="962" alt="hero-section-pt-PC" src="https://github.com/user-attachments/assets/7778f6df-0d5d-4d9e-8a9e-89f889588350" />
+<img width="461" height="878" alt="hero-section-pt-cll" src="https://github.com/user-attachments/assets/bef34784-9432-4e3c-acea-4a74200b71c8" />
+
 ## ✨ Funcionalidades Concluídas
 * **Hero Section com Impacto:** Imagem de fundo com gradiente de sobreposição para destacar o título principal e o botão de Call to Action (CTA).
 * **Benefícios com Ícones Dinâmicos:** Cards interativos utilizando a biblioteca Font Awesome, com animações personalizadas de rotação e escala ao passar o mouse (`hover`).
