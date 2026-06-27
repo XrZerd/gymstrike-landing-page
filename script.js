@@ -29,16 +29,21 @@ formContato.addEventListener('submit', function (e) {
     const email = document.getElementById('email').value.trim();
     const mensagem = document.getElementById('mensagem').value.trim();
 
+    const isEnglish = document.documentElement.lang === 'en';
+
     if (nome === '' || email === '' || mensagem === '') {
-        // Alerta de erro
-        mostrarAlerta('Por favor, preencha todos os campos.', '#ef4444');
+        // Alerta de erro dinâmico
+        const erroMsg = isEnglish ? 'Please fill in all fields.' : 'Por favor, preencha todos os campos.';
+        mostrarAlerta(erroMsg, '#ef4444');
         return;
     }
 
-    // Alerta de sucesso
-    mostrarAlerta(`Obrigado, ${nome}! Mensagem enviada com sucesso.`, '#10b981');
-
-    // Limpa os campos do formulário
+    // Alerta de sucesso dinâmico
+    const sucessoMsg = isEnglish 
+        ? `Thank you, ${nome}! Message sent successfully.` 
+        : `Obrigado, ${nome}! Mensagem enviada com sucesso.`;
+        
+    mostrarAlerta(sucessoMsg, '#10b981');
     formContato.reset();
 });
 

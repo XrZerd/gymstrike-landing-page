@@ -43,6 +43,23 @@ nav {
     color: #ff3b3b;
 }
 
+/* BOTÃO DE IDIOMA */
+.btn-idioma {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ff3b3b;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+.btn-idioma:hover {
+    background-color: #ff3b3b;
+}
+
 /* O botão começa escondido por padrão no computador */
 .btn-menu {
     display: none;

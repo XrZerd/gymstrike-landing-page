@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymStrike</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Gym<span>Strike</span></div>
+
+            <a href="index.html" class="btn-idioma" title="Mudar para Português">🇧🇷 PT</a>
+
+            <button id="btn-menu" class="btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul id="nav-links" class="nav-links">
+                <li><a href="#beneficios">Benefits</a></li>
+                <li><a href="#planos">Pricing</a></li>
+                <li><a href="#depoimentos">Testimonials</a></li>
+                <li><a href="#contato">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Transform your body, change your life</h1>
+                <p>The best facility and the best professionals to help you achieve your goals.</p>
+                <a href="#planos" class="cta-button">Start Now</a>
+            </div>
+        </section>
+
+        <!-- 2. BENEFITS -->
+         <section id="beneficios" class="secao-padrao">
+            <h2 class="titulo-secao">Why choose GymStrike?</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <i class="fa-solid fa-dumbbell icone-beneficio"></i>
+                    <h3>Modern Equipment</h3>
+                    <p>State-of-the-art machinery to ensure the best biomechanics for your workout.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-clock icone-beneficio"></i>
+                    <h3>Open 24 Hours</h3>
+                    <p>Train at your own pace and schedule. Our facility never closes.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-person-running icone-beneficio"></i>
+                    <h3>Qualified Professionals</h3>
+                    <p>Certified trainers ready to create the perfect workout program for your goals.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- 3. PRICING -->
+          <section id="planos" class="secao-padrao bg-escuro">
+            <h2 class="titulo-secao texto-claro">Our Plans</h2>
+            
+            <div class="cards-container">
+                <div class="card plano-card">
+                    <h3>Basic</h3>
+                    <div class="preco">$ 19<span>/month</span></div>
+                    <ul class="lista-plano">
+                        <li>Restricted hours access</li>
+                        <li>Weightlifting equipment</li>
+                        <li>Locker rooms</li>
+                    </ul>
+                    <a href="#contato" class="cta-button plano-btn">Get Basic</a>
+                </div>
+
+                <div class="card plano-card destaque">
+                    <div class="tag-popular">Most Popular</div>
+                    <h3>Premium</h3>
+                    <div class="preco">$ 29<span>/month</span></div>
+                    <ul class="lista-plano">
+                        <li>24/7 unlimited access</li>
+                        <li>Weightlifting and cardio</li>
+                        <li>Group classes (FitDance, etc)</li>
+                        <li>Workout App</li>
+                    </ul>
+                    <a href="#contato" class="cta-button plano-btn">Get Premium</a>
+                </div>
+
+                <div class="card plano-card">
+                    <h3>Annual Plan</h3>
+                    <div class="preco">$ 22<span>/month</span></div>
+                    <ul class="lista-plano">
+                        <li>All Premium benefits</li>
+                        <li>Free monthly assessment</li>
+                        <li>Bring 1 friend per month</li>
+                    </ul>
+                    <a href="#contato" class="cta-button plano-btn">Get Annual</a>
+                </div>
+            </div>
+          </section>
+
+          <!-- 4. TESTIMONIALS -->
+           <section id="depoimentos" class="secao-padrao">
+            <h2 class="titulo-secao">What our members say</h2>
+            
+            <div class="cards-container">
+                <div class="card depoimento-card">
+                    <p class="texto-depoimento">"Incredible facility! Since I started training at GymStrike, my daily energy has completely changed."</p>
+                    <div class="autor-depoimento">
+                        <strong>Carlos Silva</strong>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+
+                <div class="card depoimento-card">
+                    <p class="texto-depoimento">"The trainers are very attentive and built a workout focused exactly on what I needed."</p>
+                    <div class="autor-depoimento">
+                        <strong>Mariana Costa</strong>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+
+                <div class="card depoimento-card">
+                    <p class="texto-depoimento">"The gym's facility is excellent. Good and well-spaced equipment, and the service from the front desk to the trainers is great. Highly recommended."</p>
+                    <div class="autor-depoimento">
+                        <strong>Bruna Nogueira</strong>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+
+                <div class="card depoimento-card">
+                    <p class="texto-depoimento">"My favorite gym. Great location, excellent equipment, and wonderful trainers. I have nothing but praise for this facility."</p>
+                    <div class="autor-depoimento">
+                        <strong>Henrique Oliveira</strong>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+            </div>
+           </section>
+
+           <!-- 5. CONTACT FORMS -->
+            <section id="contato" class="secao-padrao bg-escuro">
+                <h2 class="titulo-secao texto-claro">Contact Us</h2>
+                
+                <div class="form-container">
+                    <form id="form-contato" novalidate>
+                        <div class="input-group">
+                            <label for="nome">Full Name</label>
+                            <input type="text" id="nome" name="nome" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="mensagem">Message</label>
+                            <textarea name="mensagem" id="mensagem" rows="4" placeholder="How can we help you?" required></textarea>
+                        </div>
+
+                        <button type="submit" class="cta-button form-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gym Strike. All rights reserved.</p>
+    </footer>
+
+    <div id="alerta-customizado" class="escondido">
+        <span id="mensagem-alerta">Success message here</span>
+        <button id="fechar-alerta">Ok</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

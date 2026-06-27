@@ -1,37 +1,36 @@
-# 🏋️‍♂️ GymStrike - Landing Page para Academia
+# 🏋️‍♂️ GymStrike - Gym Landing Page
 
-> Uma landing page moderna, responsiva e focada em conversão para academias de ginástica, desenvolvida com tecnologias web fundamentais.
+> A modern, responsive, and conversion-focused landing page for fitness centers, developed with core web technologies.
 
-🔗 **[Acesse o projeto online clicando aqui](https://xrzerd.github.io/gymstrike-landing-page/)**
+🔗 **[Access the live project here](https://xrzerd.github.io/gymstrike-landing-page/)**
 
-## 💻 Sobre o Projeto
-O **GymStrike** é um projeto de Landing Page estruturado para apresentar os serviços, diferenciais e planos de uma academia de alto impacto. O design utiliza uma paleta escura com detalhes em vermelho para passar energia e foco, aplicando conceitos avançados de Flexbox e responsividade (Mobile First).
+*Read this in other languages: [🇧🇷 Português](README-pt.md)*
 
-<img width="1908" height="965" alt="landingPagePC" src="https://github.com/user-attachments/assets/e2603a73-4218-416e-9ed4-0815888b0353" />
-<img width="465" height="877" alt="landingPageCelular" src="https://github.com/user-attachments/assets/b53cbd10-730d-465f-86e4-c37cfb721183" />
+## 💻 About the Project
+**GymStrike** is a Landing Page project structured to present the services, key differentiators, and pricing plans of a high-impact gym. The design utilizes a dark palette with red accents to convey energy and focus, applying advanced Flexbox concepts and Mobile First responsiveness.
 
-## ✨ Funcionalidades Concluídas
-* **Hero Section com Impacto:** Imagem de fundo com gradiente de sobreposição para destacar o título principal e o botão de Call to Action (CTA).
-* **Benefícios com Ícones Dinâmicos:** Cards interativos utilizando a biblioteca Font Awesome, com animações personalizadas de rotação e escala ao passar o mouse (`hover`).
-* **Planos de Mensalidade Estruturados:** Tabela de preços destacando o plano "Premium" (Mais Popular) através de escala visual.
-* **Depoimentos de Alunos:** Área dedicada à prova social com layout limpo e avaliação em estrelas.
-* **Formulário de Contato Inteligente:** Captação de mensagens com validação de dados via JavaScript.
-* **Alerta Personalizado (Toast Notification):** Substituição dos alertas nativos do navegador por caixas de erro (vermelha) ou sucesso (verde) estilizadas com animações fluidas.
-* **Menu Hambúrguer Responsivo:** Navegação mobile que desliza da lateral da tela ao clicar no botão de menu.
-* **Scroll Suave:** Navegação interna fluida entre as seções da página.
+## ✨ Completed Features
+* **High-Impact Hero Section:** Background image with a gradient overlay to highlight the main headline and Call to Action (CTA) button.
+* **Benefits with Dynamic Icons:** Interactive cards using the Font Awesome library, with custom rotation and scale animations on hover.
+* **Structured Pricing Plans:** Pricing table highlighting the "Premium" (Most Popular) plan through visual scaling.
+* **Student Testimonials:** Dedicated social proof area with a clean layout and star ratings.
+* **Smart Contact Form:** Message capture with data validation via JavaScript.
+* **Custom Alerts (Toast Notification):** Replacement of native browser alerts with custom error (red) or success (green) boxes featuring fluid animations.
+* **Responsive Hamburger Menu:** Mobile navigation that slides from the side of the screen when the menu button is clicked.
+* **Smooth Scrolling:** Fluid internal navigation between page sections.
 
-## 🛠️ Tecnologias Utilizadas
-O projeto foi construído do zero, sem o uso de frameworks, focando na solidez das tecnologias base:
-* **HTML5:** Estruturação semântica de todas as seções.
-* **CSS3 Puro:** Estilização baseada em Flexbox, Media Queries para responsividade e animações de transição.
-* **JavaScript (Vanilla):** Manipulação dinâmica do DOM para o menu mobile, animação de rolagem e sistema de alertas.
+## 🛠️ Technologies Used
+The project was built from scratch without the use of frameworks, focusing on the solidity of core web technologies:
+* **HTML5:** Semantic structuring of all sections.
+* **Pure CSS3:** Styling based on Flexbox, Media Queries for responsiveness, and transition animations.
+* **JavaScript (Vanilla):** Dynamic DOM manipulation for the mobile menu, scroll animation, and alert system.
 
-### Recursos Externos:
-* **Google Fonts:** Utilização das famílias *Oswald* (para títulos de impacto e logo) e *Montserrat* (para textos de leitura).
-* **Font Awesome:** Biblioteca de ícones vetoriais.
-* **Unsplash:** Imagens de alta definição para a composição do design.
+### External Resources:
+* **Google Fonts:** Usage of *Oswald* (for impact titles and logo) and *Montserrat* (for reading texts) font families.
+* **Font Awesome:** Vector icon library.
+* **Unsplash:** High-definition images for design composition.
 
-## 👨‍💻 Autor
-Desenvolvido por **Henrique Brancalhão de Oliveira**
-* [GitHub](https://github.com/XrZerd)
+## 👨‍💻 Author
+Developed by **[Henrique Brancalhão de Oliveira]**
 * [LinkedIn](https://www.linkedin.com/in/henrique-brancalh%C3%A3o/)
+* [GitHub](https://github.com/XrZerd)
